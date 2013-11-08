@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Ice-PC" name="com.epam.preproduction.tests.SortingTest" tests="2" failures="0" timestamp="8 Nov 2013 07:45:23 GMT" time="109.702" errors="0">
+  <testcase name="testSortingByName" time="41.56" classname="com.epam.preproduction.tests.SortingTest"/>
+  <testcase name="testSortingByPrice" time="54.974" classname="com.epam.preproduction.tests.SortingTest"/>
+</testsuite>

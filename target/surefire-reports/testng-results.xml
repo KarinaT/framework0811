@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="109702" started-at="2013-11-08T09:43:33Z" finished-at="2013-11-08T09:45:23Z">
+    <groups>
+    </groups>
+    <test name="testNG test1" duration-ms="109702" started-at="2013-11-08T09:43:33Z" finished-at="2013-11-08T09:45:23Z">
+      <class name="com.epam.preproduction.tests.SortingTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="12121" started-at="2013-11-08T09:43:33Z" finished-at="2013-11-08T09:43:45Z">
+        </test-method>
+        <test-method status="PASS" signature="configuration()" name="configuration" is-config="true" duration-ms="50" started-at="2013-11-08T09:43:46Z" finished-at="2013-11-08T09:43:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testSortingByName(java.lang.String)" name="testSortingByName" duration-ms="41560" started-at="2013-11-08T09:43:46Z" finished-at="2013-11-08T09:44:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Холодильники]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="configuration()" name="configuration" is-config="true" duration-ms="3" started-at="2013-11-08T09:44:27Z" finished-at="2013-11-08T09:44:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testSortingByPrice(java.lang.String)" name="testSortingByPrice" duration-ms="54974" started-at="2013-11-08T09:44:27Z" finished-at="2013-11-08T09:45:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Холодильники]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="703" started-at="2013-11-08T09:45:22Z" finished-at="2013-11-08T09:45:23Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
